@@ -1,0 +1,294 @@
+body{
+    background-image:url(./Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(245,245,245);
+}
+#HeaderSection div ul button{
+    height: 32px;
+    width: 85px;
+    border: 0px solid rgb(209,204,203);
+    border-radius: 6px;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: inset 0 0 0 1.8px #e6e6e6;
+}
+#HeaderSection div ul #down{
+    font-weight: 800;
+}
+#HeaderSection{
+    margin-left: 0.3cm;
+    margin-top: -0.45cm;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#HeaderSection div{
+    display: inline-block;
+}
+#HeaderSection div ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+}
+#HeaderSection div ul li{   
+    font-size: 11.5pt;
+    font-weight: 200;
+}
+#HeaderSection div h1 #sp{
+    font-weight: 100;
+    font-size: 11.5pt;
+}
+#HeaderSection div #h1{
+    font-size: 11.5pt;
+}
+#BodySection{
+    margin-top: 9%;
+    text-align: center;
+    color: white;
+}
+#BodySection h2{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 0.15cm;
+}
+#BodySection p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4cm;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#BodySection #b1{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    border: #fff solid 2px;
+    border-radius: 5px;
+    width: 185px;
+    height: 45px;
+    color: rgb(134,129,121);
+    text-shadow: 0.3px 0.3px 0.3px rgb(108,108,108);
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+#BodySection #b2{
+    background-color: transparent;
+    border: 2px solid rgb(148,161,172);
+    color: #fff;
+    border-radius: 5px;
+    width: 185px;
+    height: 45px;
+    margin-left: 13px;
+}
+#BodySection button{
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: space-between;
+}
+#ContentSection{
+    padding-top: 30px;
+    background-color: white;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    color: rgb(108,108,108);
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 3.5cm; 
+}
+#ContentSection h1{
+    font-size: 2.20em;
+    line-height: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.1pt;
+    padding-top: 10px;
+    text-shadow: 0.1px 0.1px 0.1px rgb(108,108,108);
+}
+#ContentSection p{
+    border-top: 2px solid rgb(229,229,229);
+    font-weight: 500;
+    text-shadow: 0.1px 0.1px 0.1px rgb(108,108,108);
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 60px; 
+    width: 66%;
+    margin: auto;
+}
+#ContentSection img{
+    width: 100%;
+    margin: auto;
+}
+#IconSection{
+    width: 65.3%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 35px;
+    padding: 35px 35px;
+}
+#IconSection div{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#IconSection div h1{
+    font-size: 28px;
+    font-weight: 100;
+    color: rgb(111,111,145);
+    text-shadow: 0.2px 0.2px 0.2px rgb(111,111,145);
+    padding-top: 15px;
+}
+#IconSection p{
+    font-size: large;
+}
+#IconSection i{
+    border-radius: 100%;
+    color: #fff;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+.fa.fa-bolt{
+    padding: 4px 35px;
+    background-color: rgb(232,153,128);
+}
+.fa.fa-area-chart{
+    padding: 4px 21px;
+    background-color: rgb(127,205,184);
+}
+.fa.fa-cloud{
+    padding: 5px 25px;
+    background-color: rgb(144,176,186);
+}
+.fa.fa-lock{
+    padding: 4px 32px;
+    background-color: rgb(229,203,149);
+   
+}
+#IconSection #div1{
+    border-bottom: 1px solid rgb(229,229,229) ;
+    border-right: 1px solid rgb(229,229,229) ;
+    position: relative;
+    left: 3.5px;
+}
+#IconSection #div4{
+    border-top: 1px solid rgb(229,229,229) ;
+    border-left: 1px solid rgb(229,229,229) ;
+    position: relative;
+    bottom: 2px;
+}
+#ImageSection{
+    text-align: center;
+    margin-top: 35px;
+}
+#ImageSection div{
+    border-radius: 5px;
+    width: 34%;
+    display: inline-block;
+    background-color: #fff;
+    padding-bottom: 50px;
+    margin: auto;
+}
+#ImageSection div img{
+    width: 100%;
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#ImageSection #id1{
+    margin-right: 25px;
+}
+#ImageSection h5{
+    color: rgb(107,111,116);
+    font-size: 30px;
+    font-weight: 100;
+    text-shadow: 0.1px 0.1px 0.1px rgb(107,111,116);
+}
+#ImageSection p{
+    font-size: large;
+}
+#ImageSection button{
+    width: 140px;
+    height: 45px;
+    border: 3px solid rgb(234,234,234);
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 30px;
+    color: rgb(124,143,155);
+}
+#SignupSection {
+    background-color: #e89980;
+    width: 100%;
+    color: #f9e3dc;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#SignupSection h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+#SignupSection p{
+    font-weight: 100;
+    text-shadow: 0.1px 0.1px 0.1px #f9e3dc;
+    padding-bottom: 20px;
+}
+#SignupSection #em{
+    width: 255px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #eba893;
+    border-color: transparent;
+    padding-left: 10px;
+    font-size: 16px;
+}
+#SignupSection ::placeholder{
+    color: #fff;
+}
+#SignupSection button{
+    width: 130px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #eba893;
+    border-color: transparent;
+    margin-left: 15px;
+    font-size: 16px;
+}
+#FooterSection ul{
+    list-style-type: none;
+    margin-left: 36%;
+    padding-top: 40px;
+}
+#FooterSection ul li {
+    display: inline;
+    margin-left: 25px;
+    font-size: 33px;
+    color: #bdbdbd;
+    text-shadow: 0.1px 0.1px 0.1px #c8c8c8;
+}
+#FooterSection p{
+    color: #bdbdbd;
+    display: inline-flex;
+    padding-right: 10px; 
+    padding-left: 10px;
+    margin-bottom: 100px;
+}
+#FooterSection #p1{
+    border-right:1px solid #bdbdbd;
+    margin-left: 34%;
+}
+#FooterSection #p2{
+    border-right:1px solid #bdbdbd;
+}
+#FooterSection p span{
+    border-bottom: 2px dotted #bdbdbd;
+}
